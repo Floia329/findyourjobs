@@ -75,10 +75,11 @@ body {
   border: none;
   flex-grow: 1;
   font-size: 16px;
+  line-height: 19px;
   padding-left: 15px;
 }
 .input:focus {
-  outline: 1px dotted #666;
+  outline: none;
 }
 .tags-group {
   padding-left: 15px;
@@ -103,7 +104,7 @@ body {
   margin-top: 0;
 }
 .card {
-  text-transform: none;
+  text-decoration: none;
   color: #111238;
   background: #f2f3f6;
   border-radius: 10px;
@@ -119,6 +120,6 @@ body {
 }
 .card-icon {
   fill: #111238;
-  margin: 15px;
+  margin-bottom: 15px;
   transition: fill 0.2s;
 }
